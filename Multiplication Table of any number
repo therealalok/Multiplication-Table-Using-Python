@@ -1,0 +1,10 @@
+def multiplication_table(n):
+    i=1
+    a=int(input("Upto how many multiples of n do you want to find? "))
+    while(i<=a):
+        print(f"{n} X {i} = {n*i}")
+        i+=1
+
+multiplication_table(5)
+              
+
